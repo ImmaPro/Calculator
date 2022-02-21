@@ -1,0 +1,115 @@
+h1 {
+  text-align:center;
+
+   }
+#calculator{
+  display:flex;
+  flex-direction:column;
+  width:280px;
+  height:390px;
+  margin:auto;
+  background-color:darkgrey;
+  border: solid 5px #000000;
+}
+
+#screen{
+  background-color:white;
+  height:80px;
+  width:260px;
+  display:flex;
+  flex-direction:row;
+  align:center;
+  margin: 10px auto;
+  align-items:center;
+  justify-content: flex-end;
+  font-size:2rem;
+  overflow: hidden;
+
+}
+ #numbers{
+   display:flex;
+   flex-wrap:wrap;
+   width:280px;
+ }
+ #operators{
+   display:flex;
+   flex-wrap: wrap;
+ }
+
+ .number {
+   color:white;
+  background-color: #75DE62;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 3px 3px #888888;
+ }
+
+#clear {
+  color:white;
+  background-color: gray;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 3px 3px #888888;
+}
+.operator {
+  color: white;
+  background-color: #70E6F9;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 3px 3px #888888;
+}
+#buttons {
+  display:flex;
+  cursor: url('cheese.png'), auto;
+}
+
+.divide{
+  color:white;
+  background-color:#70E6F9;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 3px 3px #888888;
+}
+.number:active, .operator:active, #clear:active, .zero:active, .divide:active{
+  box-shadow: 0px 0px;
+}
+.cee:active, {
+  box-shadow: 0px 0px;
+}
+#equal {
+  color:white;
+  background-color:gray;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 3px 3px #888888;
+}
